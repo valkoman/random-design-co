@@ -100,22 +100,105 @@ textarea {
    *, *:before, *:after {
      box-sizing: inherit;
    }
-
+/*---------------*/
    body {
-     border: 1px solid blue;
    }
 
+.page-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #000;
+  color: #fff;
+  padding: 1em;
+  z-index: 10;
+}
 
+.page-header h1 {
+  font-size: 1em;
+  text-transform: uppercase;
+  margin: 0;
+}
+/*-----------------*/
+img {
+  max-width: 100%;
+}
 
+.random {
+  position: relative;
+  font-size: 1.3em;
+  color: #fff;
+}
 
+.purple_bg {
+  display: block;
+  border: 1px solid #CCC;
+  position: relative;
+  z-index: -10;
+  width: 100%;
+}
 
+.random_content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-size: 2em;
+}
 
+.random_content h2,
+.random_content p {
+  margin: 0;
+  line-height: 1em;
+}
 
+.random_content p {
+  border: 3px solid #fff;
+  margin-top: 20px;
+  padding: 0.5em;
+}
+/*------------------*/
+.main {
+  border: 1px solid #CCC;
+  font-size: 1.2em;
+  line-height: 2em;
+  padding-left: 1.5em;
+  padding-right: 1.5em;
+  padding-top: 3em;
+  padding-bottom: 3em;
+}
+/*------------------*/
+.latest_work {
+  border: 1px solid #CCC;
+  padding-left: 1.5em;
+  padding-right: 1.5em;
+  padding-top: 3em;
+  padding-bottom: 3em;
+}
+.project {
+  border: 1px solid #fff;
+  background:hsla(0,100%,50%,0.25);
+  width: 50%;
+  height: 15em;
+  color: #fff;
+  float: left;
+}
 
-
-
-
-
+.grid {
+  overflow: auto;
+  max-width: 100%;
+  text-align: center;
+}
+/*----------------*/
+.page-footer {
+  border: 1px solid #CCC;
+  font-size: 1.2em;
+  text-align: center;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
 
 
 
