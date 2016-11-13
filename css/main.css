@@ -100,9 +100,7 @@ textarea {
    *, *:before, *:after {
      box-sizing: inherit;
    }
-/*---------------*/
-   body {
-   }
+/*---header---*/
 
 .page-header {
   position: fixed;
@@ -120,7 +118,10 @@ textarea {
   text-transform: uppercase;
   margin: 0;
 }
-/*-----------------*/
+
+.fa fa-bars {
+}
+/*---random----*/
 img {
   max-width: 100%;
 }
@@ -159,7 +160,7 @@ img {
   margin-top: 20px;
   padding: 0.5em;
 }
-/*------------------*/
+/*--about us-----*/
 .main {
   border: 1px solid #CCC;
   font-size: 1.2em;
@@ -184,13 +185,13 @@ img {
   height: 20em;
   color: #fff;
   float: left;
-
 }
 .grid {
   max-width: 100%;
+  overflow: auto;
   text-align: center;
 }
-/*----------------*/
+/*---footer---*/
 .page-footer {
   border: 1px solid #CCC;
   font-size: 1.2em;
