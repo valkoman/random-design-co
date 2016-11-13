@@ -181,12 +181,11 @@ img {
   border: 1px solid #fff;
   background:hsla(0,100%,50%,0.25);
   width: 50%;
-  height: 15em;
+  height: 20em;
   color: #fff;
   float: left;
 
 }
-
 .grid {
   max-width: 100%;
   text-align: center;
@@ -198,6 +197,7 @@ img {
   text-align: center;
   padding-top: 1em;
   padding-bottom: 1em;
+  clear: both;
 }
 
 
