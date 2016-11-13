@@ -184,10 +184,10 @@ img {
   height: 15em;
   color: #fff;
   float: left;
+
 }
 
 .grid {
-  overflow: auto;
   max-width: 100%;
   text-align: center;
 }
