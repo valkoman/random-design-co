@@ -169,7 +169,11 @@ img {
   position: relative;
 }
 .main-nav ul {
+<<<<<<< HEAD
   margin-top: 1.5em
+=======
+  margin-top: 1.5em;
+>>>>>>> origin/master
   list-style-type: none;
 }
 .main-nav li {
@@ -187,7 +191,13 @@ img {
   line-height: 1;
   color: red;
 }
+<<<<<<< HEAD
 
+=======
+.main-nav li .is-active {
+  background: yellow;
+}
+>>>>>>> origin/master
 
 
 
